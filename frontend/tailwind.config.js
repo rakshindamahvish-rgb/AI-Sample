@@ -9,18 +9,20 @@ export default {
     extend: {
       colors: {
         dark: {
-          900: '#07090E', // Deepest background
-          850: '#0B0F19', // Main surface background
-          800: '#111827', // Card surface
-          750: '#161F33', // Slightly lighter card
-          700: '#1F293D', // Elevated element
-          600: '#374151', // Border / subtle
-          500: '#4B5563',
+          950: '#080C14', // Canvas background
+          900: '#0B0F19', // Main background
+          850: '#111827', // Card surface primary
+          800: '#161F30', // Elevated container
+          750: '#1E293B', // Secondary surface
+          700: '#334155', // Subtle divider
+          600: '#475569', // Border
+          500: '#64748B', // Muted text
+          400: '#94A3B8', // Subtext
         },
         nexus: {
           cyan: '#06B6D4',
           blue: '#3B82F6',
-          electric: '#00F0FF',
+          electric: '#38BDF8',
           violet: '#8B5CF6',
           purple: '#A855F7',
           amber: '#F59E0B',
@@ -31,14 +33,12 @@ export default {
       },
       fontFamily: {
         mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
       },
       boxShadow: {
-        'glow-cyan': '0 0 20px -5px rgba(6, 182, 212, 0.3)',
-        'glow-blue': '0 0 20px -5px rgba(59, 130, 246, 0.3)',
-        'glow-violet': '0 0 20px -5px rgba(139, 92, 246, 0.3)',
-        'glow-red': '0 0 20px -5px rgba(239, 68, 68, 0.3)',
-        'glow-emerald': '0 0 20px -5px rgba(16, 185, 129, 0.3)',
+        'clean': '0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px -1px rgba(0, 0, 0, 0.3)',
+        'clean-md': '0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3)',
+        'clean-lg': '0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -4px rgba(0, 0, 0, 0.3)',
       }
     },
   },
